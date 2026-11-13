@@ -1,0 +1,17 @@
+{
+  "name": "crud-clientes-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API CRUD de clientes com Express e MySQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  },
+  "engines": {"node": ">=22.12.0"}
+}

@@ -1,0 +1,15 @@
+ATIVIDADE - PERGUNTAS DO SLIDE 43
+
+1. Por que a senha do MySQL fica no backend?
+Porque o frontend aparece no navegador, entao qualquer pessoa poderia ver a senha se ela estivesse la. No backend, a senha fica fora da parte publica do site.
+
+2. Qual e a funcao do WHERE id = ? no UPDATE e no DELETE?
+Serve para escolher qual cliente vai ser alterado ou excluido pelo ID. Sem essa condicao, o comando poderia afetar varios registros de uma vez.
+
+3. Como o formulario decide entre POST e PUT?
+Ele verifica o idEdicao: quando esta null, e um cadastro novo e usa POST. Se tiver o ID de um cliente, usa PUT para salvar a edicao.
+
+4. Por que consultar a lista novamente depois de salvar ou excluir?
+Para atualizar a tabela com os dados que realmente ficaram salvos no banco, sem precisar atualizar a pagina manualmente.
+
+Confira as respostas com o codigo antes de enviar.
